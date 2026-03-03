@@ -1,9 +1,12 @@
 [project]
 name = "quickdata"
 version = "0.1.0"
-description = ""
+description = "Herramienta para análisis y visualización geoespacial"
 authors = [
-    {name = "leonkeneddy86",email = "jonathan19.jtv@gmail.com"}
+    {name = "leonkeneddy86",email = "jonathan19.jtv@gmail.com"},
+    {name = "Samuelperez15",email = "samuelperezdelgado15@gmail.com"},
+    {name = "Frodmar",email = "frodmar212@gmail.com"},
+    {name = "DanielCGClase",email = "carrascogonzalezdaniel@gmail.com"},
 ]
 license = {text = "MIT"}
 readme = "README.md"
@@ -11,7 +14,8 @@ requires-python = ">=3.14"
 dependencies = [
     "geopandas (>=1.1.2,<2.0.0)",
     "folium (>=0.20.0,<0.21.0)",
-    "matplotlib (>=3.10.8,<4.0.0)"
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "pandas (>=3.0.1,<4.0.0)"
 ]
 
 
