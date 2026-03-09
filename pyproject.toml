@@ -1,5 +1,5 @@
 [project]
-name = "quickdata"
+name = "andalucia-quick-data"
 version = "0.1.0"
 description = "Herramienta para análisis y visualización geoespacial"
 authors = [
