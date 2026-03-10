@@ -45,7 +45,7 @@ def main():
     os.makedirs('data/', exist_ok=True)
     resultados = {}
 
-    for clave, nombre_capa in capas_a_procesar.items():
+    ''' for clave, nombre_capa in capas_a_procesar.items():
         # 1. Extracción pura
         gdf_raw = extraer_datos_wfs(url_base, nombre_capa)
         
@@ -58,7 +58,7 @@ def main():
             gdf_raw.to_file(ruta_destino, driver="GeoJSON")
             logging.info(f"Guardado exitosamente -> {ruta_destino}")
             
-    return resultados
+    return resultados '''
 
 if __name__ == "__main__":
     dict_datasets = main()
