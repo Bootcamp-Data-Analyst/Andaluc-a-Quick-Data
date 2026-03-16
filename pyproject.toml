@@ -24,5 +24,15 @@ dependencies = [
 "Bug Tracker" = "https://github.com/Bootcamp-Data-Analyst/Andaluc-a-Quick-Data/issues"
 
 [build-system]
+<<<<<<< HEAD
 requires = ["poetry-core>=2.0.0"]
 build-backend = "poetry.core.masonry.api"
+=======
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
+>>>>>>> dev
