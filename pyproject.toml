@@ -3,10 +3,13 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "quickdata"
+name = "andalucia-quick-data"
 version = "0.1.0"
 description = "Herramienta para análisis y visualización geoespacial de Andalucía"
+<<<<<<< HEAD
 readme = "README.md"
+=======
+>>>>>>> Feat/Package
 authors = [
     {name = "leonkeneddy86", email = "jonathan19.jtv@gmail.com"},
     {name = "Samuelperez15", email = "samuelperezdelgado15@gmail.com"},
@@ -14,6 +17,7 @@ authors = [
     {name = "DanielCGClase", email = "carrascogonzalezdaniel@gmail.com"},
 ]
 license = {text = "MIT"}
+<<<<<<< HEAD
 requires-python = ">=3.9"
 dependencies = [
     "geopandas>=1.0.0",
@@ -30,3 +34,27 @@ test = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+=======
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "geopandas>=1.0.0",
+    "folium>=0.15.0",
+    "matplotlib>=3.8.0",
+    "pandas>=2.1.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Bootcamp-Data-Analyst/Andaluc-a-Quick-Data"
+"Repository" = "https://github.com/Bootcamp-Data-Analyst/Andaluc-a-Quick-Data"
+"Bug Tracker" = "https://github.com/Bootcamp-Data-Analyst/Andaluc-a-Quick-Data/issues"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
+>>>>>>> Feat/Package

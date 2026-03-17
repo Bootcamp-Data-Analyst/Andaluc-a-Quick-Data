@@ -1,4 +1,5 @@
 .venv
+<<<<<<< HEAD
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,3 +10,7 @@ build/
 .aqd_cache/
 *.log
 *.txt
+=======
+data/*.geojson
+map/*.html
+>>>>>>> Feat/Package
